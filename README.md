@@ -1,3 +1,4 @@
+# WORDLE with cheater
 
 ---
 A recreation of the popular game [Wordle](https://www.nytimes.com/games/wordle/) by Josh Wardle (now purchased by the New York Times), with additional modes and features.
@@ -19,6 +20,7 @@ Chineseized and Enhanced.
 - You can access previous games from the settings menu by inputting a game number or link.
 - Service worker which allows the game to be easily downloaded as a progressive web app and run offline.
 - Give Up button.
+- Cheat button.
 
 ## Additional modes
 The game mode can be changed by clicking WORDLE+ at the top of the screen or swiping the board in either direction.
