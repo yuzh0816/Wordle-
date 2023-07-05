@@ -1,0 +1,65 @@
+@import './base.css';
+
+html {
+  overflow-x: hidden;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+    animation: swipe-right 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+}
+
+@media (max-width: 1024px) {
+  #app {
+    animation: swipe-down 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+}
+
+/* Animition when loading, swipe from right, with linear transition */
+@keyframes swipe-right {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes swipe-down {
+  0% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
