@@ -57,6 +57,7 @@ body {
 	--bg-primary: #ffffff;
 
 	--red: #C42C2C;
+	--green: #6aaa64;
 	--color-present: #c9b458;
 	--color-correct: #6aaa64;
 	--color-absent: var(--fg-secondary);

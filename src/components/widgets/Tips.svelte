@@ -37,7 +37,7 @@
 		xmlns="http://www.w3.org/2000/svg"
 		viewBox="0 0 100 100"
 	>
-		<path d="M0 25L40 50L40 0L0 25Z" />
+		<path d="M75,0L25,50L75,100z" />
 	</svg>
 	<svg
 		on:click={nextTip}

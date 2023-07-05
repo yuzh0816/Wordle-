@@ -15,7 +15,7 @@
 			}/${state.board.words.length}\n\n    ${state.board.state
 				.slice(0, state.guesses)
 				.map((r) => r.join(""))
-				.join("\n    ")}\nmikhad.github.io/wordle`
+				.join("\n    ")}\nyuzh0816.github.io/wordle`
 		);
 		toaster.pop("复制成功");
 	}

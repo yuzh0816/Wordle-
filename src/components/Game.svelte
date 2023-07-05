@@ -125,6 +125,10 @@
 		lose();
 	}
 
+	function cheater() {
+		window.open("https://yuzh.tech/wordle/cheater", "_blank");
+	}
+
 	function reload() {
 		modeData.modes[$mode].historical = false;
 		modeData.modes[$mode].seed = newSeed($mode);
@@ -255,6 +259,9 @@
 		<div class="button concede" on:click={concede} on:keydown={concede}>
 			开摆
 		</div>
+		<div class="button cheater" on:click={cheater} on:keydown={cheater}>
+			提示词工具
+		</div>
 	{/if}
 	<Tips change={showSettings} />
 
@@ -304,5 +311,8 @@
 	}
 	.concede {
 		background-color: var(--red);
+	}
+	.cheater {
+		background-color: var(--green);
 	}
 </style>

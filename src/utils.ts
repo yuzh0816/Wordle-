@@ -217,6 +217,8 @@ export const PRAISE = [
 	"对啦",
 	"恭喜",
 	"哇哦",
+	"厉害",
+	"佩服",
 ];
 
 abstract class Storable {

@@ -80,10 +80,10 @@
 		</Setting>
 		<div class="links">
 			<!--import cheater-->
-			<a href="https://github.com/MikhaD/wordle" target="_blank" rel="noreferrer">
+			<a href="https://github.com/yuzh0816/wordle" target="_blank" rel="noreferrer">
 				给个 ⭐
 			</a>
-			<a href="https://github.com/MikhaD/wordle/issues" target="_blank" rel="noreferrer">
+			<a href="https://github.com/yuzh0816/wordle/issues" target="_blank" rel="noreferrer">
 				报告 Bug
 			</a>
 		</div>
